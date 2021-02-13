@@ -7,7 +7,7 @@ Made this project for my university.
 - Includes anall digital temperature sensorintegration along with data to account for 5 Hazardous gases + Humidity <br>
 - One of the very few projects that useEMU8086 as an IOT application <br>
 
-# Contents
+## Contents
 
 - Report <br>
 - Raspberry Pi Code <br>
@@ -19,9 +19,9 @@ See Report for: <br>
 - EMU8086 Code <br>
 - Thermometer module code (Open Source Code NOT mine) <br>
 
-Working: <br>
+##Working: <br>
 
-# Audrino <br>
+### Audrino <br>
 
 1. Using PubSubClient to determine Publisher, Subscribers <br>
 2. Get the port value of your server (1883 by default).<br>
@@ -55,12 +55,14 @@ Client.setCallback(callback);
 reconnect();
 }
 
-# Raspberry Pi <br>
+### Raspberry Pi <br>
 
 1. Testing/Establishing Broker <br>
 
+'
 mosquitto_pub -t "testing_phrase" -m "Testing Word"
 mosquitto_pub -t "testing_phrase"
+'
 
 2. Set SWITCH as the publish client <br>
 3. Set LIGHT as subscriber client <br>
