@@ -10,4 +10,11 @@ Made this project for my university.
 # Contents
 
 - Report <br>
-- Code
+- Raspberry Pi Code <br>
+- Arduino Code <br>
+
+See Report for: <br>
+
+- Initial Setup + Setup Code <br>
+- EMU8086 Code <br>
+- Thermometer module code (Open Source Code NOT mine) <br>
